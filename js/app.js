@@ -22,7 +22,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     // 2. Show img with result
     var diceDOM = document.querySelector('.dice');
     diceDOM.style.display = 'block';
-    diceDOM.src = 'img/dice-' + dice + '.png';
+    diceDOM.src = './img/dice-' + dice + '.png';
 
     // 3. Check if the rolled number is NOT 1
     if (dice !== 1) {
