@@ -13,4 +13,4 @@ Anne rolls a 2, and could hold with a turn total of 7 points, but chooses to rol
 The next player, Bob, rolls the sequence 4-5-3-5-5, after which he chooses to hold, and adds his turn total of 22 points to his score.
 
 # Watch how it works!
-https://frozenpyrozen.github.io/Dice-Game/
+You can try it here -> https://frozenpyrozen.github.io/Dice-Game/
