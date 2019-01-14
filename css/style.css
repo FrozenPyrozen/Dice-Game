@@ -43,6 +43,20 @@ body {
   padding: 100px;
 }
 
+#finish-game-score {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 520px;
+  color: inherit;
+  font-size: 18px;
+  font-family: inherit;
+  text-align: center;
+  padding: 10px;
+  width: 160px;
+  text-transform: uppercase;
+}
+#finish-game-score:focus {outline-color: grey;}
 /**********************************************
 *** PLAYERS
 **********************************************/
