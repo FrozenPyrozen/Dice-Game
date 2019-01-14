@@ -18,8 +18,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
   if (isPlaying) {
 
     // 1. Generate Random number
-    //var dice = Math.floor(Math.random() * 6) + 1;
-    var dice = Math.floor(Math.random() * (7 - 5) + 5);
+    var dice = Math.floor(Math.random() * 6) + 1;
 
     // 2. Show img with result
     var diceDOM = document.querySelector('.dice');
@@ -76,7 +75,7 @@ document.querySelector('.btn-new').addEventListener('click', init);
 // Initializate new game
 function init() {
   scores = [0, 0];
-  prevDices = [0,0];
+  prevDices = [0, 0];
   activePlayer = 0;
   roundScore = 0;
   isPlaying = true;
